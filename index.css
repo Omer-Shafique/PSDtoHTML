@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #131315;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+section{
+  height: 100vh;
+  overflow: hidden;
+}
+
+.navbar {
+  background-color: #131315;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo img {
+  height: 40px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.nav-buttons {
+  text-align: left;
+  flex-grow: -2;
+  margin-top: -3px;
+}
+
+.nav-buttons a {
+  text-decoration: none;
+  color: #fff;
+  padding: 7px 20px;
+  margin: 0 15px;
+  display: inline-block;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  border-radius: 15px;
+}
+
+.nav-buttons a:hover {
+  background-color: #ea1c3a;
+  border-radius: 15px;
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+main {
+  display: flex;
+}
+
+.main-container {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.big-heading {
+  font-size: 100px;
+  margin-left: 40px;
+  color: #ffdbc2;
+  font-weight: 30px;
+  margin-top: 60px;
+  font-family: system-ui;
+  line-height: 85px;
+}
+
+.now {
+  margin-left: 20px;
+}
+
+.paragraph {
+  margin-top: -40px;
+  margin-left: 40px;
+  color: white;
+}
+
+.button {
+  margin-top: 40px;
+  border: none;
+  text-decoration: none;
+  color: #010101;
+  background-color: #ea1c3a;
+  padding: 6px 20px;
+  margin-left: 40px;
+  outline: none;
+  box-shadow: none;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: large;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #ffdbc2;
+  color: #131315;
+}
+
+.icons {
+  display: flex;
+  margin-left: 3%;
+  margin-bottom: 50px;
+}
+
+.icon-container {
+  margin-right: 10px;
+}
+
+.icon {
+  display: block;
+  height: 55px;
+  width: 55px;
+  margin-left: 0px;
+  margin-top: -4px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+}
+
+.twitter {
+  height: 25px;
+  width: 25px;
+  margin-top: 11px;
+  margin-left: 4px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.twitter:hover {
+  transform: scale(1.2);
+}
+
+.facebook {
+  height: 25px;
+  width: 25px;
+  margin-top: 10px;
+  margin-left: 13px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.facebook:hover {
+  transform: scale(1.2);
+}
+
+.whatsapp {
+  height: 25px;
+  width: 25px;
+  margin-top: 10px;
+  margin-left: 13px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.whatsapp:hover {
+  transform: scale(1.2);
+}
+
+.three-lines {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -40px;
+  left: 240px;
+  height: 800px;
+  transform: rotate(12deg);
+  opacity: 60%;
+  z-index: -1;
+  box-shadow: none;
+  max-width: 220px; 
+}
+
+.hiking-image {
+  top: 0;
+  max-width: 40%;
+  height: 120vh;
+  margin-left: auto;
+  display: block;
+  object-fit:cover;
+  object-position:-400px;
+  margin-top: -20px;
+  z-index: 1000;
+  display: block;
+  clip-path: polygon(28% 0, 100% 0%, 100% 99%, 0 99%);
+  z-index: -2;
+}
